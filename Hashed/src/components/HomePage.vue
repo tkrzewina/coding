@@ -1,7 +1,23 @@
 <template>
-    <div class="">
-        Hello
-    </div>
+    <div class="container-fluid m-0 p-0">
+
+        <div id="home-page" class="bg-danger" p-4>
+
+        </div>
+
+        <div id="home-page" class="bg-danger" p-4>
+
+        </div>
+
+        <div id="home-page" class="bg-danger" p-4>
+
+        </div>
+
+        <div id="home-page" class="bg-danger" p-4>
+
+        </div>
+ 
+    </div> 
 </template>
 
 <script>
