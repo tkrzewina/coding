@@ -10,7 +10,7 @@
               <h1 class="display-3">{{ title }}</h1>
               <h3>Find the World</h3>
             </div>
-            <img id="iphone-img" src="../assets/travelTreasuryiPhone.png" class="img-fluig">
+            <img id="iphone-img" src="../assets/hero.png" class="img-fluig">
           </div>
 
           <div class="col-lg-6 my-auto pt-4">
