@@ -1,23 +1,20 @@
 <template>
-    <div class="container-fluid m-0 p-0">
+    <div class="container-fluid m-0 p-0"> 
 
-        <div id="home-page" class="bg-danger" p-4>
-
+        <div id="home-page" class="full-hight bg-danger p-4">
         </div>
 
-        <div id="home-page" class="bg-danger" p-4>
-
+        <div id="about" class="bg-warning p-4">
         </div>
 
-        <div id="home-page" class="bg-danger" p-4>
-
+        <div id="home-page" class="bg-info p-4">
         </div>
 
-        <div id="home-page" class="bg-danger" p-4>
+        <div id="home-page" class="bg-dark p-4">
+        </div>                
 
-        </div>
- 
     </div> 
+
 </template>
 
 <script>
