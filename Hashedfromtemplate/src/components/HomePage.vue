@@ -8,7 +8,7 @@
           <div class="col-lg-6 pt-4 my-auto">
             <div class="text-center mb-3 d-block d-lg-none">
               <h1 class="display-3">{{ title }}</h1>
-              <h3>Find the World</h3>
+              <h3>Clothes connected, finally!</h3>
             </div>
             <img id="iphone-img" src="../assets/hero.png" class="img-fluig">
           </div>
@@ -16,14 +16,14 @@
           <div class="col-lg-6 my-auto pt-4">
             <div class="text-center mb-3 d-none d-lg-block">
               <h1 class="display-3">{{ title }}</h1>
-              <h3>Find the World</h3>
+              <h3>#918236# hand revolutio</h3>
             </div>
 
             <div class="border p-3 p-md-5 bg-white rounded shadow">
               <h2>Coming Soon</h2>
               <form @submit.prevent="addEmail(email)">
                 <div class="form-group">
-                  <label for="emailSignup">Reserve your account now, we'll contact you when it's live</label>
+                  <label for="emailSignup">Sign up for our newsletter</label>
                   <input v-model="email"
                          type="email"
                          id="emailSignup"
@@ -65,26 +65,21 @@
           <!-- Icon made by Freepik perfect from www.flaticon.com -->
           <img src="../assets/icons/app.svg" height="120" class="m-4">
           <h5 class="ml-md-4 mr-md-4">
-            Plan your next adventure by setting a daily spending budget.
-            We make it easy to break your expenses down by category,
-            giving you more time to plan the important tings!
+            Blockchain
           </h5>
         </div>
         <div class="col-lg">
           <!-- Icon made by Freepik perfect from www.flaticon.com -->
           <img src="../assets/icons/piggy-bank.svg" height="120" class="m-4">
           <h5 class="ml-md-4 mr-md-4">
-            Use the app to track how much money you’ve saved towards your trips
-            total budgeted goal. Know exactly how much more you need to save,
-            and how much time you have left to save.
+            Ruchanko
           </h5>
         </div>
         <div class="col-lg">
           <!-- Icon made by Freepik perfect from www.flaticon.com -->
           <img src="../assets/icons/passport.svg" height="120" class="m-4">
           <h5 class="ml-md-4 mr-md-4">
-            When the day of your trip comes, have the peace of mind that you
-            planned out your expenses. Never worry about money on a trip again!
+            Second hand
           </h5>
         </div>
       </div>
@@ -94,7 +89,7 @@
       <div class="row justify-content-center mt-3 mb-3">
 
         <div v-if="show_contact == true" class="col-lg-4">
-          <h2>Have Any Questions?</h2>
+          <h2>Get in touch</h2>
           <p>Contact us by filling out the information below</p>
 
           <div v-if="contact_notice != ''" class="alert alert-warning">
@@ -128,10 +123,10 @@
 
     <div id="footer" class=" p-4">
       <footer class="text-light p-4">
-        <a href="https://www.youtube.com/1manstartup" target="_blank" class="text-warning">Build This App</a> |
+        <a href="https://www.youtube.com" target="_blank" class="text-warning">Help us</a> |
         <a href="#" class="text-warning">Privacy Policy</a>
         <br>
-        <small>&copy; 2020, TravelTreasury.app</small>
+        <small>&copy; 2021 Hashed</small>
       </footer>
     </div>
 
@@ -146,7 +141,7 @@
 export default {
   data () {
     return {
-      title: 'Travel Treasury',
+      title: 'Hashed',
       email: '',
       message: '',
       show_contact: true,
@@ -207,7 +202,7 @@ export default {
 <style scoped>
   #home-page {
     background-color: #92D2F2;
-    background: url('../assets/bg_mt.jpg') no-repeat center center;
+    background: url('../assets/shoes.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
