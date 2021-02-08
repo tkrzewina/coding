@@ -9,11 +9,10 @@
 import AppHeader from './components/AppHeader.vue';
 import HelloWorld from './components/HelloWorld.vue';
 
-
 export default {
   components: {
     AppHeader,
-    HelloWorld,
+    HelloWorld
   }
 };
 
