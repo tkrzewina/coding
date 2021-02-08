@@ -6,13 +6,13 @@
 </template>
 
 <script>
-import NavigationMenu from './components/NavigationMenu.vue'
+import AppHeader from './components/AppHeader.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    NavigationMenu,
+    AppHeader,
     HelloWorld
   }
 }
